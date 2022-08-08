@@ -1,0 +1,30 @@
+body{
+    background-color: #333;
+    background: inherit;
+}
+#cor{
+    background-color: #c4d2eb;
+}
+#container{
+    margin: 0 auto;
+    width: 984px;
+    text-align: left;
+}
+.title{
+    color: #FFF;
+    background-color: #404E82;
+    padding: 0px 4px 0px;
+    margin: 0 auto;
+}
+table{
+    display: table;
+    text-indent: initial;
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-style: normal;
+    text-align: start;
+    border-color: grey;
+    font-variant: normal;
+}

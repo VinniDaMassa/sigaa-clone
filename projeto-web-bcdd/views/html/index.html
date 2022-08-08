@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="p-br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sigaa Clone </title>
+    <style>
+        body{
+            background-color: #333;
+            background: inherit;
+        }
+        #cor{
+            background-color: #c4d2eb;
+        }
+        #container{
+            margin: 0 auto;
+            width: 984px;
+            text-align: left;
+        }
+        .title{
+            color: #FFF;
+            background-color: #404E82;
+            padding: 0px 4px 0px;
+            margin: 0 auto;
+        }
+        table{
+            display: table;
+            text-indent: initial;
+            white-space: normal;
+            line-height: normal;
+            font-weight: normal;
+            font-size: medium;
+            font-style: normal;
+            text-align: start;
+            border-color: grey;
+            font-variant: normal;
+        }
+
+    </style>
 </head>
 <body>
     
+    <div id="container">
+        <h4 class="title"> IFAL - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas </h4>
+        <div id="cor" style="height: 50px;">
+        </div>
+        <table>
+            <tr>
+                <td>SIGAA</td><td>SIPAC</td><td>SIGRH</td>
+            </tr>
+            <tr>
+                <td>SIGAdmin</td>
+            </tr>
+        </table>
+        <p>Perdeu o e-mail de confirmação de cadastro? <a href="_blank">Clique aqui para recuperá-lo.</a>
+        Esqueceu o login? <a href="_blank">Clique aqui para recuperá-lo.</a>
+        Esqueceu a senha? <a href="_blank">Clique aqui para recuperá-la.</a></p>
+        
+        <fieldset>
+            <legend> Entrar no Sistema </legend>
+            <form>
+                Usuário: <input type="text">
+                Senha: <input type="password">
+                <input type="button" value="Entrar">
+            </form>
+        </fieldset>
+    </div>
 </body>
 </html>
